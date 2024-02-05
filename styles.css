@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://img.freepik.com/free-photo/top-view-desk-concept-with-gray-background_23-2148236825.jpg?w=2000&t=st=1707146320~exp=1707146920~hmac=8a22374832f395cbc0e53d3119e6520fb0de89fbb3993f7ca1e8efd3a6de44c7');
+    background-size: cover;
+    background-position: center;
+    height: 100%; /* Set height to fill the entire screen */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the content inside the container */
+}
+
+header h1 {
+    color: #333;
+    font-size: 48px; /* Increase the font size of the header */
+    font-weight: bold;
+    margin-bottom: 20px; /* Add some spacing below the header */
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content horizontally */
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.profile-pic img {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.details {
+    color: #333;
+    text-align: left; /* Align the text to the left */
+}
+
+.details h2 {
+    margin-top: 0;
+    color: #333;
+    font-size: 36px; /* Increase the font size of the name */
+    font-family: 'Arial Black', sans-serif; /* Use a different font style */
+}
+
+.details p {
+    margin: 10px 0; /* Add some vertical spacing between paragraphs */
+    color: #666;
+    font-size: 20px; /* Increase the font size of the details */
+}
